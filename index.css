@@ -9,42 +9,32 @@ body{
     margin-right: 90px;
     font-family: 'Inter', sans-serif;
 }
-.navbar{
+header{
     display: flex;
     justify-content: space-between;
-    
-    margin-top: 30px;
-    align-items: center;
 }
-.navbar img{
-    width: 170px;
+.log{
+    width: 300px;
     height: 50px;
-
 }
-.list{
+.navbar ul li{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    text-decoration: none;
 }
-.list ol{
-margin-left: 20px;
-text-transform: capitalize;
-font-size: 16px;
-font-weight: 500;
+.navbar ul {
+    display: flex;
+    
 }
-.list button{
-    margin-left: 20px;
-    padding: 10px 20px;
-    background-color: #1A75FF;
-    border-radius: 8px;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+.navbar ul li{
+    margin-right: 40px;
+}
+.mobile-icon, .mobileIcon{
+    display: none;
 }
 .father{
     display: flex;
-    margin-top: 50px;
+    margin-top: 
+    0px;
 }
 .text{
     margin-top: 40px;
@@ -67,6 +57,7 @@ font-weight: 500;
     height: 40px;
     border-radius: 8px;
     align-items: center;
+    cursor: pointer;
 }
 .button2{
     background: #fff;
@@ -76,6 +67,7 @@ font-weight: 500;
     border-radius: 8px;
     align-items: center;
     border: 1px solid gray;
+    cursor: pointer;
 }
 .text h4{
 color: #404b5a;
@@ -83,7 +75,7 @@ color: #404b5a;
 
 .woman img{
     width: 500px;
-    height: 500px;
+    height: 550px;
 }
 .head{
     align-items: center;
@@ -176,6 +168,7 @@ color: #002966;
     border-radius: 8px;
     align-items: center;
     margin-right: 20px;
+    cursor: pointer;
 }
 .button4{
     background: #fff;
@@ -184,6 +177,7 @@ color: #002966;
     height: 40px;
     border-radius: 8px;
     align-items: center;
+    cursor: pointer;
     border: 1px solid gray;
 }
 .butt{
@@ -241,6 +235,8 @@ color: #002966;
 height: 220px;
  border-radius: 15px;
  padding: 30px;
+ align-items: center;
+margin-left: 30%;
 }
 .Stillhaveaquestions h3{
     display: grid;
@@ -263,12 +259,13 @@ color:#002966;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 10px 20px;
 width: 153px;
 height: 44px;
 background: #1A75FF;
 border-radius: 8px;
 font-size: 16px;
+cursor: pointer;
+margin-left: 150px;
    }
    .Stillhaveaquestions button img{
     margin-right: 10px;
@@ -342,7 +339,8 @@ font-size: 16px;
       border-radius: 8px;
       color: #FFFFFF;
       width: 130px;
-      height: 48px;;
+      height: 48px;
+      cursor: pointer;
 }
 .email{
 display: flex;
@@ -370,6 +368,9 @@ font-size: 18px;
 line-height: 28px;
 color: #002966;
 }
+.email img{
+    margin-right: o;
+}
 .inputtext input{
 width: 357px;
 height: 44px;
@@ -381,6 +382,7 @@ width: 119px;
 height: 44px;
 background: #1A75FF;
 border-radius: 8px;
+cursor: pointer;
 margin-left: 20px;
 }
 
@@ -458,16 +460,50 @@ height: 32px;
           margin-left: 20px;
           margin-right: 20px;
     }
+    .log{
+       width: 100px;
+    }
+    .navbar{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .navbar ul li{
+        display: grid;
+        text-decoration: none;
+    }
+    .navbar ul {
+        display: grid;
+        background-color: #1A75FF;
+        width: 100%;
+    }
+    .navbar ul li{
+        margin-bottom: 10px;
+    }
+    .mobile-icon{
+        margin-top: 15px;
+        display: block;
+        cursor: pointer;
+    }
+    .mobileIcon{
+        display: none;
+    }
+    .navbar{
+        display: none;
 
-  .navbar{
-    margin-left: 10px;
-    margin-right: 10px;
+    }
+    .navbar ul{
+        display: block;
+    }
+    .navbar ul li{
+        list-style-type: none;
+    }
 
-  }
+    .mobileIcon:checked~.navbar{
+        display: grid;
+        position: absolute;
+        padding: 10px;
 
-.list ol{
-    display: none;
-}
+    }
 .father{
     display: grid;
     margin-top: 0;
@@ -490,10 +526,12 @@ height: 32px;
     width: 280px;
     height: 30px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .button2{
     width: 280px;
     height: 30px;
+    cursor: pointer;
 }
 .woman img{
     width: 300px;
@@ -570,10 +608,12 @@ justify-content: center;
 }
 .button3 {
     width: 270px;
+    cursor: pointer;
 }
 .button4 {
     width: 270px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .Stillhaveaquestions{
     display: grid;
@@ -581,9 +621,11 @@ justify-content: center;
     justify-content: center;
     width: 290px;
     height: 290px;
+    margin-left: 0 !important;
 }
 .Stillhaveaquestions button{
 margin-left: 45px;
+cursor: pointer;
 }
 .aunty-2 {
     margin: 0 !important;
@@ -647,7 +689,7 @@ margin-left: 45px;
 .inputtext button{
     width: 250px;
     align-items: center;
-    
+    cursor: pointer;
 }
 
 
