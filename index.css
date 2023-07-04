@@ -5,32 +5,63 @@
 }
 body{
     background-color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+.main{
     margin-left: 90px;
     margin-right: 90px;
-    font-family: 'Inter', sans-serif;
 }
 header{
     display: flex;
+    align-items: center !important;
     justify-content: space-between;
+    color: black;
+    text-transform: capitalize;
+    margin: 0 !important;
+    padding: 0 !important;
 }
-.log{
-    width: 300px;
-    height: 50px;
-}
-.navbar ul li{
+.moo{
     display: flex;
-    text-decoration: none;
 }
-.navbar ul {
-    display: flex;
-    
+.mo{
+    display: grid;
 }
-.navbar ul li{
-    margin-right: 40px;
+header img{
+    margin: 10px;
 }
 .mobile-icon, .mobileIcon{
     display: none;
 }
+.navbar{
+    display: flex;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    display: flex;
+     margin-right: 40px;
+     color: black;
+
+}
+.navbar ul a{
+    text-decoration: none;
+}
+.navbar ul button{
+    background: #1A75FF;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+}
+.navbar ul li span{
+    color: #F20A0A;
+}
+.bor{
+    border-bottom: 2px solid #F20A0A;
+}
+
 .father{
     display: flex;
     margin-top: 
@@ -463,46 +494,90 @@ height: 32px;
     .log{
        width: 100px;
     }
-    .navbar{
-        align-items: center !important;
-        justify-content: center !important;
+    .main{
+        padding: 0;
+        margin: 0;
     }
-    .navbar ul li{
+    header{
+        background: #fff;
         display: grid;
-        text-decoration: none;
-    }
-    .navbar ul {
-        display: grid;
-        background-color: #1A75FF;
-        width: 100%;
-    }
-    .navbar ul li{
-        margin-bottom: 10px;
-    }
+        justify-content: space-between !important;
+        align-items: center;
+       }
+        header img{
+            padding: 0;
+            margin: 0;
+            position: sticky;
+        }
+        #personally{
+            margin-right: 60px;
+        }
+      
+        .mock{
+            margin-right: 95px;
+        }
+        .mo{
+            display: flex;
+
+        }
+        .lab{
+            display: flex;
+        }
+        
     .mobile-icon{
-        margin-top: 15px;
         display: block;
         cursor: pointer;
+        width: 20px;
     }
     .mobileIcon{
         display: none;
     }
     .navbar{
         display: none;
-
+        background-color: #b9d1ff;
+        
+        padding: 0;
+        margin: 0;
+        display: grid;
+        text-align: left;
     }
+    
     .navbar ul{
         display: block;
+         text-align: left !important;
+         display: grid !important;
     }
     .navbar ul li{
         list-style-type: none;
+        margin-left: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navbar ul a{
+        display: grid;
+        text-align: left;
     }
 
     .mobileIcon:checked~.navbar{
         display: grid;
         position: absolute;
-        padding: 10px;
-
+       
+        display: none;
+    }
+    .navbar ul button{
+        border: none;
+        width: 270px;
+        border-radius: 40px;
+        background: #1A75FF;
+    }
+    .mob{
+        display: grid !important;
+        text-align: start !important;
+    }
+    .herosection h1{
+        font-size: 27px;
+    }
+    .herosection h3{
+        font-size: 13px;
     }
 .father{
     display: grid;
