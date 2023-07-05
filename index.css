@@ -588,7 +588,7 @@ height: 32px;
 .father{
     display: grid;
     margin-top: 0;
-    margin-right: 20px;
+    margin-right: 20px !important;
 }
 .text h2{
     font-size: 25px;
@@ -717,7 +717,7 @@ cursor: pointer;
 }
 .carddd{
     display: grid;
-    margin-left: 20px;
+    margin-left: 20px !important;
 }
 .card-img-top{
     width: 270px !important;
