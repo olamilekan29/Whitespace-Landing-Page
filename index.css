@@ -491,7 +491,7 @@ height: 32px;
         align-items: center !important;
         justify-content: center !important;
           margin-left: 20px;
-          margin-right: 20px;
+        
     }
     .body{
      align-items: center !important;
@@ -508,7 +508,8 @@ height: 32px;
         background: #fff;
         display: grid;
         justify-content: space-between !important;
-        align-items: center;
+        align-items: center !important;
+        margin-left: 20px !important;
        }
         header img{
             padding: 0;
@@ -516,7 +517,7 @@ height: 32px;
             position: sticky;
         }
         #personally{
-            margin-right: 60px;
+            margin-right: 75px;
         }
       
         .mock{
@@ -588,8 +589,9 @@ height: 32px;
 .father{
     display: grid;
     margin-top: 0;
-    margin-right: 20px !important;
+    margin-left: 20px !important;
 }
+
 .text h2{
     font-size: 25px;
     margin-top: 0 !important;
@@ -704,8 +706,8 @@ justify-content: center;
     justify-content: center;
     width: 290px;
     height: 290px;
-    margin-left: 0 !important;
-    margin-left: 20px;
+    
+    margin-left: 20px !important;
 }
 .Stillhaveaquestions button{
 margin-left: 45px;
