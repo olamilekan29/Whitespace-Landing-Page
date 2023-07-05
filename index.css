@@ -569,6 +569,7 @@ height: 32px;
         display: grid;
         position: absolute;
         display: none;
+        width: 320px;
     }
     .navbar ul button{
         border: none;
