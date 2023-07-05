@@ -588,6 +588,7 @@ height: 32px;
 .father{
     display: grid;
     margin-top: 0;
+    margin-right: 20px;
 }
 .text h2{
     font-size: 25px;
@@ -648,6 +649,7 @@ height: 342px;
 .son-2 img{
     width: 130px;
     display: flex;
+    margin-left: 20px;
 }
 .uncle{
     display: grid;
@@ -703,6 +705,7 @@ justify-content: center;
     width: 290px;
     height: 290px;
     margin-left: 0 !important;
+    margin-left: 20px;
 }
 .Stillhaveaquestions button{
 margin-left: 45px;
@@ -714,6 +717,7 @@ cursor: pointer;
 }
 .carddd{
     display: grid;
+    margin-left: 20px;
 }
 .card-img-top{
     width: 270px !important;
